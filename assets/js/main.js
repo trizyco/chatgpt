@@ -79,7 +79,7 @@ const handleSubmit = async (e) => {
 
   // fetch data from server -> bot's response
 
-  const response = await fetch('http://sv.trizy.co:4040', {
+  const response = await fetch('http://sv.trizy.co', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
